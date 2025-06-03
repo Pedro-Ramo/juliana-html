@@ -28,10 +28,10 @@ H2{
    font-size: 40px;
    text-align: center;
    color: aliceblue;
-   
+   margin-top: 5px;
   }
 
-.Cardapio{
+.PRATOS{
 
 font-size: 60px;
 text-align: left;
@@ -39,6 +39,73 @@ margin-inline-start: 100%;
 color: aliceblue;
 
 }
+
+.PRATOS{
+  color: rgb(255, 255, 255); 
+  position: absolute;
+  top: 10%; 
+  margin-left: 67%;
+  transform: translate(-50%, -50%); 
+  font-size: 26px; 
+  z-index: 10; 
+}
+.PRATOS li {
+  list-style: none;
+}
+.PRATOS a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+.contato{
+  position: absolute;
+  top: 10%; 
+  left: 85%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 26px; 
+  z-index: 10; 
+}
+.contato li{
+  list-style: none;
+}
+.contato a{
+  text-decoration: none; 
+  color: inherit;
+}
+.LOCALIZACAO{
+  position: absolute;
+  top: 10%; 
+  left: 30%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 26px; 
+  z-index: 10; 
+}
+.LOCALIZACAO  li{
+  list-style: none;
+}
+.LOCALIZACAO a{
+  text-decoration: none; 
+  color: inherit;
+}
+.RESERVAS{
+  position: absolute;
+  top: 10%; 
+  left: 10%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 26px; 
+  z-index: 10; 
+}
+.RESERVAS li{
+  list-style: none;
+}
+.RESERVAS a{
+  text-decoration: none; 
+  color: inherit;
+}
+
 
    
 
