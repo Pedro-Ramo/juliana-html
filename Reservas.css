@@ -1,25 +1,29 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: rgb(199, 139, 100)
+	background: rgb(103, 58, 28)
 }
 	
-
+h1{
+	text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
 
 
 
 form {
 	margin: 40px 0;
-	text-align: center;
-	color: #000000;
+	
+	color: #ffffff;
 }
 
 form label, form legend {
 	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
-	text-align: center;
-	color: #000000;
+	
+	color: #ffffff;
 }
 
 .input-padrao {
@@ -28,21 +32,21 @@ form label, form legend {
 	padding: 10px 25px;
 	width: 50%;
 	text-align: center;
-	color: #000000;
+	color: #ffffff;
 	
 }
 
 .checkbox {
 	margin: 20px 0;
 	text-align: center;
-	color: #000000;
+	color: #ffffff;
 }
 
 .enviar {
 	width:40%;
 	padding: 15px 0;
 	background: rgba(255, 253, 252, 0.863);
-	color: rgb(201, 189, 189);
+	color: rgba(171, 66, 37, 0.496);
 	font-weight: bold;
 	font-size: 18px;
 	border: none;
@@ -59,17 +63,17 @@ form label, form legend {
 table {
 	margin: 20px 0 40px;
 	text-align: center;
-	color: #000000;
+	color: #ffffff;
 }
 
 thead {
-	background: #000000;
-	color: rgb(0, 0, 0);
+	background: #ffffff;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 }
 
 td, th {
-	border: 1px solid #000000;
+	border: 1px solid #ffffff;
 	padding: 8px 15px;
 	text-align: center;
 }
